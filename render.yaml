@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gps-usage
+    runtime: python
+    plan: free
+    buildCommand: "true"
+    startCommand: "python3 usage_backend.py"
